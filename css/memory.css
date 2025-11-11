@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+
+/* ----------------------------------記憶ここから */
+.site-menu ul li:nth-child(4) a {
+  color: #2990D6;
+}
+
+.cheki img {
+  width: 80%;
+}
+
+.someone-memory {
+  margin-bottom: 130px;
+}
+
+.share-memory p {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  line-height: 2em;
+}
+
+mainslide {
+  max-width: 1000px;
+  width: 100%;
+  margin: 150px auto;
+}
+
+/* ---------スライドの矢印 */
+
+.slick-next:before,
+.slick-prev:before {
+  font-family: slick;
+  font-size: 50px;
+  line-height: 1;
+  opacity: .75;
+  color: #2990D6;
+}
+
+.slick-next {
+  right: 210px;
+  z-index: 10;
+}
+
+.slick-prev {
+  left: 165px;
+  z-index: 10;
+  top: 330px;
+
+}
+
+/* -----------------------------------------------------------------レスポンシブここから */
+
+@media(max-width:800px) {
+  h1 {
+    margin-top: 60px;
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    font-family: slick;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #2990D6;
+  }
+
+  .slick-next {
+    right: 8px;
+    z-index: 10;
+  }
+
+  .slick-prev {
+    left: 8px;
+    top: 118px;
+    z-index: 10;
+  }
+
+  .about-first img {
+    margin-top: 80px;
+  }
+
+  .someone-memory {
+    margin-top: 130px;
+    margin-bottom: -50px;
+  }
+
+  .share-memory {
+    margin-top: 130px;
+    
+  }
+
+  .share-memory p {
+    font-size: 15px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+}

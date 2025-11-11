@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+
+/* ----------------------------------FAQここから */
+
+.site-menu ul li:nth-child(5) a{
+  color: #2990D6;
+}
+
+.FAQ {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+dt {
+  color: #2990D6;
+  background-color: rgba(240, 248, 255, 0.603);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 130%;
+}
+
+dt::before {
+  content: "Q.";
+}
+
+dd,
+dt {
+  text-align: left;
+}
+
+dd {
+  margin-top: 10px;
+  margin-bottom: 80px;
+  margin-left: 60px;
+  margin-right: 50px;
+  line-height: 2em;
+}
+
+dd::before {
+  content: "A.";
+  color: #2f69a3;
+}
+
+  
+
+
+/* ----------------------------------CONTACTここから */
+
+
+.contact {
+  width: 800px;
+  margin: auto;
+}
+.contact {
+  width: 1000px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2em;
+
+}
+h2{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+.contact p::first-letter{
+  font-size: 100%;
+}
+.before-contact{
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.698);
+  line-height: 2.5em;
+}
+form {
+  text-align: center;
+  background-color: aliceblue;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  padding: 40px;
+  border-radius: 15%;
+
+}
+
+form p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+form p::first-letter{
+  font-size: 100%;
+  }
+
+input[type="text"] {
+  background-color: #2991d676;
+  width: 400px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  border: none;
+
+}
+
+input[type="email"] {
+  background-color: #2991d676;
+  width: 400px;
+  height: 50px;
+  border: none;
+
+}
+
+textarea {
+  background-color: #2991d676;
+  width: 400px;
+  height: 200px;
+  resize: none;
+  border: none;
+  
+}
+
+input[type="submit"] {
+  background-color: #2990D6;
+  color: aliceblue;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 110%;
+}
+
+
+
+/* -----------------------------------------------------------------レスポンシブここから */
+
+@media(max-width:800px) {
+  .FAQ {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  h1{
+    margin-top: 120px;
+    margin-bottom: 20px;
+  }
+  h2{
+    font-size: 18px;
+  }
+  .form {
+    text-align: center;
+    background-color: aliceblue;
+    width: 350px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10%;
+}
+dd{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.contact{
+  width: 400px;
+  margin-top: -30px;
+}
+.before-contact{
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.698);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+form{
+  width: 350px;
+  margin-top: 50px;
+  border-radius: 9%;
+  padding: 15px;
+}
+form p{
+  margin-bottom: 2px;
+}
+input[type="text"] {
+max-width: 300px;
+height: 40px;
+margin-bottom: 0;
+}
+input[type="email"] {
+  max-width: 300px;
+  height: 40px;
+
+}
+textarea {
+  max-width: 300px;
+height: 150px;
+}
+}
